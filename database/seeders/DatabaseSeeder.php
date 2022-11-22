@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'admin'
         ]);
 
+
         \App\Models\User::factory(50)->create();
 
         \DB::table('groups')->insert([
