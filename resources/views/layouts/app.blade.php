@@ -15,6 +15,10 @@
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
+            <div style="text-align: center; padding: 20p; background: red; color: white">
+                DIT IS HET CHECKER PROJECT, NIET AANPASSEN!!!!!
+            </div>
+
             @include('layouts.navigation')
 
             <!-- Page Heading -->
