@@ -39,7 +39,8 @@
                 </div>
             @endif
 
-            <div class="max-w-6xl mx-auto sm:px-6">
+            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+
                 <h1>Kerstlootjesapp</h1>
             </div>
         </div>

@@ -24,6 +24,15 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+        \App\Models\User::create([
+            'name' => 'Test user',
+            'email' => 'f.vangils@curio.nl',
+            'email_verified_at' => now(),
+            'password' => \Hash::make('password'), // password
+            'remember_token' => \Str::random(10),
+            'role_id' => 2
+        ]);
+
         \App\Models\User::factory(50)->create();
 
         \DB::table('groups')->insert([
